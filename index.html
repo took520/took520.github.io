@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <style type="text/css">
-        h1{
-            text-align: center;
-            font-size: 50px;
-        }
-    </style>
+    <meta charset="UTF-8"/>
+    <title>HTML5维京战争手机小游戏 - 资源分享吧</title>
+    <link rel="shortcut icon" href="icon.png">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+          content="initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no, minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script type="text/javascript" src="game.js"></script>
+
+    <!-- AnalyticsCode -->
+
+    <!-- APICode -->
 </head>
-<body>
-    <h1>Hello Github</h1>   
+
+<body onLoad="setTimeout(function(){window.scrollTo(0,1)},1);">
+
+<div class="gamecenter-activator"></div>
+
+<div id="ajaxbar">
+    <div id="game">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div id="orientate"><img src="media/graphics/orientate/landscape.jpg"/></div>
+    <div id="play" class="play" onClick=""><img src="media/graphics/splash/mobile/cover-start.jpg"/></div>
+</div>
+<div style="text-align:center;">
+    <p>更多小游戏：<a href="https://www.zyfx8.cn" target="_blank">资源分享吧</a></p>
+</div>
 </body>
 </html>
